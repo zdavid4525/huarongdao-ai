@@ -6,9 +6,9 @@ Run with:
 python3 hrd.py --algo <algo> --inputfile <input file> --outputfile <output file>    
 ```
 
- - <algo> specifies the type of search algorithm: astar or dfs
- - <input file> specifies a plain-text input file to read the puzzle's initial state from
- - <output file> specifies a plain-text output file containing the solution found by the search algorithm
+ - algo specifies the type of search algorithm: astar or dfs
+ - input file specifies a plain-text input file to read the puzzle's initial state from
+ - output file specifies a plain-text output file containing the solution found by the search algorithm
 
 Sample usages are:
 
