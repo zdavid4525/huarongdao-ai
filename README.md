@@ -13,7 +13,7 @@ python3 hrd.py --algo <algo> --inputfile <input file> --outputfile <output file>
 Sample usages are:
 
 ```
-python3 hrd.py --algo astar --inputfile hrd5.txt --outputfile hrd5sol_astar.txt
+python3 hrd.py --algo dfs --inputfile hrd5.txt --outputfile hrd5sol_dfs.txt
 or
-python3 hrd.py --algo dfs --inputfile hrd7.txt --outputfile hrd7sol_dfs.txt
+python3 hrd.py --algo astar --inputfile hrd7.txt --outputfile hrd7sol_astar.txt
 ```
