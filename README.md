@@ -1,5 +1,9 @@
 # huarongdao-ai
 
+Solves a game of [Huarongdao](https://chinesepuzzles.org/huarong-pass-sliding-block-puzzle/), given an initial state, using DFS/A* State Space Search. 
+
+## Board Specification
+
 Each state is a grid of 20 characters which has 5 rows with 4 characters per row.
 
  - The empty squares are denoted by "."
@@ -8,6 +12,9 @@ Each state is a grid of 20 characters which has 5 rows with 4 characters per row
  - A horizontal 1x2 piece is denoted by "<" on the left and ">" on the right
  - A vertical 1x2 piece is denoted by "^" on the top and "v" on the bottom
 
+The input is the board's initial state, and the output is the moves (from the initial state @ bottom to game-win state @ top) the program makes. 
+
+## Instructions
 
 Run with:
 
